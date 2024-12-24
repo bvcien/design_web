@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Class Example</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: block;
+            background-color: lightblue;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggleButton">Nhấn để mở</button>
+    <div id="myDiv" class="hidden">
+        Đây là nội dung sẽ được hiển thị.
+    </div>
+
+    <script>
+        document.getElementById('toggleButton').addEventListener('click', function() {
+            var div = document.getElementById('myDiv');
+            div.classList.toggle('hidden');
+            div.classList.toggle('visible');
+        });
+    </script>
+</body>
+</html>

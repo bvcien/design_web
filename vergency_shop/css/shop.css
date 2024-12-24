@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #f8f2f26f; */
+}
+
+.header-logo ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    /* background-color: darkgrey; */
+    line-height: 100px;
+    border-bottom: 2px solid gainsboro;
+    color:#5ec9ff;
+    /* font-size: 16px; */
+    font-size: 20px;
+}
+
+.header-logo li {
+    max-width: 100%;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-item i {
+    padding: 0 10px;
+}
+
+.header-user, 
+.header-shop {
+    color: #5ec9ff;
+}
+
+.header-select  {
+    text-transform: uppercase;
+    font-weight: 500;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: white;
+    top:0;
+}
+
+.header-select ul {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.header-select a:hover {
+    color:#5ec9ff;
+}
+
+.header-select a {
+    padding: 0 20px;
+}
+
+.container {
+    margin-top: 40px;   
+}
+
+.row {
+    padding:0 100px ;
+}
+
+.container .row-nopadding {
+    margin-left: -112px;
+    margin-right: -112px;
+}
+
+.content-product {
+    background-color: rgba(248, 243, 243, 0.578);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content-product ul {
+    padding: 10px 0;
+}
+
+.content-product li {
+    padding: 5px 25px;
+}
+
+.list-product {
+    color: #1babf3;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.title-product {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid gainsboro;
+    font-weight: 500;
+}
+
+.select-list-product {
+    padding-bottom: 20px;
+}
+
+.select-product {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    background-color:rgba(248, 243, 243, 0.578); 
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.arrange-product {
+    display: flex;
+    align-items: center;
+}
+
+.arrange-name {
+    margin-right: 10px;
+}
+
+.arrange-item-new {
+    background-color: white;
+    padding: 3px 15px;
+    /* padding-right: 100px; */
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    /* position: relative; */
+}
+
+.arrange-icon {
+    margin-left: 50px;
+    /* right: 0; */
+}
+
+
+.title-service {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.title {
+    text-align: center;
+    padding: 50px 0;
+    color: #5ec9ff;
+    font-size: 25px;
+    font-weight: bold;
+    /* background-color: #5ec9ff; */
+}
+
+.item {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.content-item {
+    margin: 0 200px;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.content-item-img {
+    cursor: pointer;
+}
+
+.content-item-img img {
+    width: 100%;
+    height: auto;
+}
+
+.name-product {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.content-item-shop {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.product-star {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(234, 234, 69);
+}
+
+.content-item-price {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gainsboro;
+    padding: 10px 10px;
+
+}
+
+.price-new {
+    color: red;
+    font-weight: 500;
+}
+
+.price-old {
+    text-decoration: line-through;
+}
+
+.show-item {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.show-item-product {
+    padding: 8px 25px;
+    background-color: #5ec9ff;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white
+}
+
+.show-item-product:hover {
+    opacity: 0.7;
+}
+
+.banner-product {
+    margin-bottom: 20px;
+}
+
+.banner-product img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-product:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: #032333;
+}
+
+.footer-item {
+    padding-bottom: 70px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    /* padding: 100px 0 ; */
+}
+
+.footer-content li {
+    padding: 5px 0;
+}
+
+.footer-content li a:hover {
+    color: rgba(251, 247, 247, 0.919);;
+}
+
+.footer-title {
+    color: rgba(251, 247, 247, 0.919);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.655);
+    padding: 5px 0;
+}
+
+.contact-netwwork a i {
+    color: white;
+    font-size: 25px;
+}
+
+.footer-copyright {
+    border-top: 2px solid rgba(128, 128, 128, 0.325);
+}
+
+.footer-copyright {
+    color: rgba(251, 247, 247, 0.919);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+
+
+

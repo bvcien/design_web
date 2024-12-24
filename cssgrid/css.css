@@ -1,0 +1,27 @@
+.grid-item {
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto;
+    grid-template-rows: 100x 100x 100x 100x 100x 100x;
+    /* border: 1px solid black; */
+    grid-gap: 60px 60px;
+    /* background-color: aqua; */
+}
+
+.item1, .item2, .item3,.item4,.item5,.item6,.item7,.item8,.item9, .item10, .item11, .item12, .item13, .item14, .item15 {
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    background-color: aqua;
+}
+
+.item1 {
+    /* grid-column: 1/4; */
+}
+
+.item2 {
+    /* grid-row: 2/5; */
+}
+
+.item8 {
+    /* grid-area: 1 / 2 / 5 / 6; */
+}
